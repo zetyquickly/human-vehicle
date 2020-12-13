@@ -1,3 +1,4 @@
+import subprocess
 import os, sys, argparse
 
 parser = argparse.ArgumentParser(description='Apply HUmanVehicle darknet model on folder')
