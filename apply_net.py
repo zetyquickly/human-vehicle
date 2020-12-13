@@ -1,6 +1,3 @@
-import multiprocessing
-from multiprocessing.pool import ThreadPool
-from tqdm import tqdm
 import os, sys, argparse
 
 parser = argparse.ArgumentParser(description='Apply HUmanVehicle darknet model on folder')
