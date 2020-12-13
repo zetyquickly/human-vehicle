@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     results = []
     for arg in pool_args:
-        cmd = "darknet detector test model/obj.data model/yolov4-obj.cfg model/yolov4-obj_best.weights-dont_show {} -thresh {}".format(arg, opt.thresh)
+        cmd = "darknet detector test model/obj.data model/yolov4-obj.cfg model/yolov4-obj_best.weights -dont_show {} -thresh {}".format(arg, opt.thresh)
         popen = subprocess.Popen(cmd, stdout=subprocess.PIPE)
         popen.wait()
 
