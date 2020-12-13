@@ -5,14 +5,17 @@ Two-class YOLOv4 based detector
 Короткое описание: Сетка на два класса, обученная на СОСО 2к + 25к итераций
 
 1. Предикт на картинках размера 416x416, AP@0.5
+
 class_id = 0, name = Car, ap = 66.54%            (TP = 1065, FP = 598) 
 class_id = 1, name = Person, ap = 77.44%         (TP = 7975, FP = 2766)
 
 1. Предикт на картинках размера 608x608, AP@0.5
+
 class_id = 0, name = Car, ap = 72.24%            (TP = 1150, FP = 506) 
 class_id = 1, name = Person, ap = 79.09%         (TP = 8241, FP = 3166)
 
 1. Предикт на картинках размера 608x608, AP@*0.6*
+
 class_id = 0, name = Car, ap = 65.09%            (TP = 1075, FP = 581) 
 class_id = 1, name = Person, ap = 73.26%         (TP = 7839, FP = 3568) 
 
