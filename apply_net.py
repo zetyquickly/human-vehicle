@@ -1,5 +1,3 @@
-#python inference.py –images_dir images/ -output_dir output/ [-thresh 0.8]
-
 import multiprocessing
 from multiprocessing.pool import ThreadPool
 from tqdm import tqdm
