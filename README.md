@@ -28,7 +28,7 @@ for conf_thresh = 0.25, TP = 8914, FP = 4149, FN = 3640, average IoU = 56.94 %
 
 ### Установка 
 
-1. Пулл докер образа с python2.7 + opencv: `zetyquickly/human-vehicle`
+1. Пулл докер образа с python2.7 + opencv: `docker pull zetyquickly/human-vehicle`
 2. Запуск контейнера `nvidia-docker run --rm  --rm -it zetyquickly/human-vehicle bash` или `docker run --rm --runtime=nvidia -it zetyquickly/human-vehicle bash`
 3. Клонируем `https://github.com/AlexeyAB/darknet.git` и запускаем `./build.sh`
 4. Устанавливаем `git-lfs`. `curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash && apt-get install git-lfs && git lfs install`
